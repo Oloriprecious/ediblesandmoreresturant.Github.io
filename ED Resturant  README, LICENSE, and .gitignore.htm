@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>My page</title>
+    <style>
+        body{
+            background: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: black;
+        
+        }
+        h2{
+            color: red;
+           
+        }
+        button{
+            color: white;
+            background: rgb(111, 169, 189);
+            size-adjust: ;
+        }
+
+    </style>
+    </head><body>
+        <h1><strong>EDIBLES AND MORE RESTURANT</strong></h1>
+        <h2>The Resturant</h2>
+        <p>The Edibles and More Resturant offers casual lunch and dinner
+ fare in a hip atmosphere. The menu charges regularly to highlight the 
+freshest ingridents.</p>
+        <h2>Catering</h2>
+        <p>You have fun...we'll handle the cooking. Edibles Food 
+Resturant can handle events from snacks for house party to elegant 
+corprate fundraisers.</p>
+        <h2>Location and Hours</h2>
+
+        <p>Fate Tanke, Kwara State Mall, Ilorin
+            </p><p>Monday through Thursday 7am to 1am</p>
+            <p>Friday to Sunday 7am to midnight</p>
+
+            <a href="https://www.google.com/search?client=firefox-b-d&amp;q=edibles+restaurant+ilorin" <h2=""><button style="font-size: 40px; border-radius: 30px;"><em>click to learn more...</em></button>
+
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+</a></body></html>
